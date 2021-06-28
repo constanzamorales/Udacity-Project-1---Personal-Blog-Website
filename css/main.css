@@ -1,0 +1,98 @@
+body {
+	background-color: #1c1b1d;
+	font-family: 'Source Sans Pro';
+	width: 70%;
+	margin: auto;
+}
+
+header {
+	color: #fff;
+	width: 850px;
+}
+
+nav {
+	width: 850px;
+	color: #fff;
+	margin: 0;
+	padding: 10px 0px 10px 0px;
+	display: flex;
+	justify-content: space-between;
+}
+
+a {
+	text-decoration: none;
+}
+
+li {
+	padding-right: 50px;
+}
+
+.main-nav {
+	display: flex;
+	justify-content: start;
+}
+
+.search-input {
+	justify-content: end;
+}
+
+ul {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+
+.container {
+	display: grid;
+	grid-template-columns: 415px 415px;
+	column-gap: 20px;
+	row-gap: 40px;
+	padding: 20px 0px 50px 0px;
+}
+
+.card {
+	background-color: #fff;
+	color: #1a1a1a;
+	padding: 0 20px 20px 20px;
+	border-radius: 4px;
+	box-shadow: 0 10px 20px rgba(0, 0, 0, 0.034), 0 4px 4px rgba(0, 0, 0, 0.05);
+}
+
+.card-title {
+	font-size: 1.4em;
+	margin-bottom: 10px;
+}
+
+.card-date {
+	color: #6e6e6e;
+}
+
+.card-text {
+	margin-top: 10px;
+}
+
+mark {
+	font-size: 0.7em;
+	background-color: #e4e4e4b2;
+	color: #666;
+	padding: 1px 4px 3px 4px;
+	border-radius: 5px;
+}
+
+.card-link {
+	text-align: right;
+	font-size: 1.1em;
+}
+
+a {
+	color: #6cb826;
+}
+
+footer {
+	padding: 50px 0px 50px 0px;
+}
+
+.footer-text {
+	margin: auto;
+	color: #fff;
+}
