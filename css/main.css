@@ -11,17 +11,17 @@ body {
 
 .container {
 	display: grid;
-	grid-template-columns: 415px 415px;
-	column-gap: 20px;
-	row-gap: 40px;
+	grid-template-columns: 48% 48%;
+	column-gap: 4%;
+	row-gap: 2%;
 	padding: 20px 0px 50px 0px;
 }
 
 .card {
 	background-color: #fff;
 	color: #1a1a1a;
-	padding: 20px 20px 20px 20px;
-	border-radius: 4px;
+	padding: 20px;
+	border-radius: 10px;
 	box-shadow: 0 10px 20px rgba(0, 0, 0, 0.034), 0 4px 4px rgba(0, 0, 0, 0.05);
 }
 
