@@ -10,13 +10,6 @@ body {
 	color: #fff;
 }
 
-.container {
-	display: grid;
-	grid-template-columns: 69% 29%;
-	column-gap: 2%;
-	padding: 20px 0px 50px 0px;
-}
-
 main {
 	background-color: #fff;
 	color: #1c1b1d;
@@ -33,15 +26,11 @@ h3 {
 	padding-top: 20px;
 }
 
-.post-subheading {
+h4 {
 	font-size: 1.3em;
 	font-weight: 300;
-	border-left: 3px solid #14acc0;
-	padding-left: 10px;
-}
-
-.post-image {
-	margin: 0 auto;
+	margin: 10px 0px 0px 0px;
+	padding: 10px 0px 10px 0px;
 }
 
 img {
@@ -57,18 +46,67 @@ mark {
 	font-size: 0.7em;
 	background-color: #e4e4e4b2;
 	color: #666;
-	padding: 1px 4px 3px 4px;
+	padding: 2px 5px;
+	margin-left: 4px;
 	border-radius: 5px;
-}
-
-.post-tags {
-	padding: 20px 0px;
+	height: 16px;
 }
 
 aside {
 	padding: 0px 15px 0px 15px;
 	background-color: rgba(255, 255, 255, 0.1);
 	border-radius: 10px;
+}
+
+i.fas.fa-arrow-left {
+	padding-right: 5px;
+}
+
+.container {
+	display: grid;
+	grid-template-columns: 69% 29%;
+	column-gap: 2%;
+	padding: 20px 0px 50px 0px;
+}
+
+.nav-buttons {
+	padding: 50px 0px 10px 0px;
+	display: flex;
+}
+
+.older,
+.newer {
+	background-color: #fff;
+	color: #14acc0;
+	border: 1px solid #14acc0;
+	border-radius: 20px;
+	padding: 5px 10px;
+}
+
+.newer {
+	margin-left: auto;
+}
+
+.post-subheading {
+	font-size: 1.3em;
+	font-weight: 300;
+	border-left: 3px solid #14acc0;
+	padding-left: 10px;
+}
+
+.post-image {
+	margin: 0 auto;
+}
+
+.post-tags {
+	display: flex;
+	padding: 20px 0px;
+	align-items: center;
+	height: 20px;
+}
+
+.post-tags p {
+	height: 22px;
 }
 
 .about-extract {
@@ -79,9 +117,52 @@ aside {
 	margin-top: 0px;
 }
 
-h4 {
-	font-size: 1.3em;
-	font-weight: 300;
-	margin: 10px 0px 0px 0px;
-	padding: 10px 0px 10px 0px;
+/* MEDIA QUERY min-width: 768px, max-width: 1023px */
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+	body {
+		width: 90%;
+		margin: 0 auto;
+		padding: 0px 20px 0px 20px;
+	}
+
+	.container {
+		display: grid;
+		grid-template-columns: 69% 29%;
+		column-gap: 2%;
+		padding: 20px 0px 20px 0px;
+	}
+}
+
+/* MEDIA QUERY max-width: 767px */
+@media screen and (max-width: 767px) {
+	body {
+		width: 90%;
+		margin: 0 auto;
+		padding: 0px 15px 0px 15px;
+	}
+
+	aside {
+		margin-top: 20px;
+		padding-bottom: 20px;
+	}
+
+	.container {
+		width: 100%;
+		display: flex;
+		flex-wrap: wrap;
+		padding: 20px 0px 20px 0px;
+		margin: 0 auto;
+	}
+
+	.post-tags {
+		display: flex;
+		flex-wrap: wrap;
+		padding: 20px 0px;
+		align-items: center;
+		height: 20px;
+	}
+
+	.post-tags p {
+		margin: 5px;
+	}
 }
