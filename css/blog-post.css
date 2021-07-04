@@ -1,1 +1,18 @@
+@import url("header.css");
+@import url("navbar.css");
+@import url("footer.css");
 
+body {
+	background-color: #1c1b1d;
+	font-family: 'Source Sans Pro';
+	width: 70%;
+	margin: auto;
+}
+
+.container {
+	display: grid;
+	grid-template-columns: 415px 415px;
+	column-gap: 20px;
+	row-gap: 40px;
+	padding: 20px 0px 50px 0px;
+}
