@@ -9,6 +9,27 @@ body {
 	margin: auto;
 }
 
+button {
+	background-color: #fff;
+	color: #14acc0;
+	border: 1px solid #14acc0;
+	border-radius: 20px;
+	padding: 8px 10px;
+	font-size: 0.8em;
+}
+
+mark {
+	font-size: 0.7em;
+	background-color: #e4e4e4b2;
+	color: #666;
+	padding: 1px 4px 3px 4px;
+	border-radius: 5px;
+}
+
+a {
+	color: #14acc0;
+}
+
 .container {
 	display: grid;
 	grid-template-columns: 48% 48%;
@@ -45,21 +66,9 @@ body {
 	margin-top: 10px;
 }
 
-mark {
-	font-size: 0.7em;
-	background-color: #e4e4e4b2;
-	color: #666;
-	padding: 1px 4px 3px 4px;
-	border-radius: 5px;
-}
-
 .card-link {
 	text-align: right;
 	font-size: 1.1em;
-}
-
-a {
-	color: #14acc0;
 }
 
 /* MEDIA QUERY min-width: 768px, max-width: 1023px */

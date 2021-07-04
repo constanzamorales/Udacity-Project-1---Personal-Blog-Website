@@ -33,8 +33,13 @@ h4 {
 	padding: 10px 0px 10px 0px;
 }
 
-img {
+.post-image img {
 	width: 100%;
+}
+
+img.avatar {
+	width: 100%;
+	border-radius: 50%;
 }
 
 figcaption {
@@ -58,6 +63,14 @@ aside {
 	border-radius: 10px;
 }
 
+button {
+	background-color: #fff;
+	color: #14acc0;
+	border: 1px solid #14acc0;
+	border-radius: 20px;
+	padding: 5px 10px;
+}
+
 i.fas.fa-arrow-left {
 	padding-right: 5px;
 }
@@ -74,6 +87,36 @@ i.fas.fa-arrow-left {
 	align-items: center;
 	color: gray;
 	height: 25px;
+	padding: 30px 0px;
+}
+
+.section-title h3 {
+	padding-top: 0px;
+}
+
+.about-author {
+	padding-bottom: 20px;
+	border-bottom: 1px solid #14acc0;
+	border-top: 1px solid #14acc0;
+}
+
+.author-info {
+	display: grid;
+	grid-template-columns: 28% 68%;
+	column-gap: 4%;
+}
+
+p.author-title,
+p.author-education,
+h4.author-name {
+	padding: 2px 0px 2px 0px;
+	margin: 0;
+}
+
+.author-social-media {
+	display: flex;
+	color: gray;
+	height: 25px;
 }
 
 .social-media i {
@@ -84,18 +127,14 @@ i.fas.fa-arrow-left {
 	padding-left: 10px;
 }
 
+.author-social-icons i {
+	color: #14acc0;
+	padding: 5px 2px 0px 2px;
+}
+
 .nav-buttons {
 	padding: 50px 0px 10px 0px;
 	display: flex;
-}
-
-.older,
-.newer {
-	background-color: #fff;
-	color: #14acc0;
-	border: 1px solid #14acc0;
-	border-radius: 20px;
-	padding: 5px 10px;
 }
 
 .newer {
